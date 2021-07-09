@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <!-------header cabecera----->
+    <header class="d-flex justify-content-around flex-wrap">
+      <span class="logo h-100 fs-2 fw-bold mb-4">Fruity</span>
+      <nav class="menu" id="menu">
+        <ul
+          class="list d-flex justify-content-between align-items-center h-100"
+        >
+          <li><a href="#" class="text-dark">Home</a></li>
+          <li><a href="#new_products" class="text-dark">New</a></li>
+          <li><a href="#all_products" class="text-dark">Shop</a></li>
+          <li><a href="#feature_products" class="text-dark">Featured</a></li>
+          <li><a href="#contact" class="text-dark">Contact</a></li>
+        </ul>
+      </nav>
+      <span class="icon_car h-100 icon h-100"
+        ><i class="far fa-cart-plus"></i
+      ></span>
+      <span class="btn_icon_menu icon h-100" id="btn_menu"
+        ><i class="fas fa-bars" id="icon"></i
+      ></span>
+    </header>
+
+    <!----main contenido principal--------->
+    <main class="d-flex justify-content-around align-items-center mb flex-wrap">
+      <section class="section_main">
+        <h1 class="title_main">Fresh Juice</h1>
+        <p class="">
+          We Beleive That Healthy Eating, Clean Air And, Gental Char Best Start
+          To Genuinw Wellbeging.
+        </p>
+        <button class="button_main">Shop Now</button>
+      </section>
+      <div class="img_main">
+        <img src="/img/banner.png" class="" alt="" />
+      </div>
+    </main>
+
+    <!--------------------------nuevos productos------------------------>
+    <section class="section_new_products container mb" id="new_products">
+      <h2 class="text-center title_new_products fs-2 mb-5">New Productos</h2>
+
+      <div class="conte_grid">
+        <article class="article_new_products grid_center mb-3">
+          <img src="./img/product5.png" class="img_new_products" alt="" />
+          <p>Quis Alikomi</p>
+          <span class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <p class="price">S/5.00</p>
+        </article>
+
+        <article class="article_new_products grid_center mb-3">
+          <img src="./img/product6.png" class="img_new_products" alt="" />
+          <p>Quis Alikomi</p>
+          <span class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <p class="price">S/5.00</p>
+        </article>
+
+        <article class="article_new_products grid_center mb-3">
+          <img src="./img/product7.png" class="img_new_products" alt="" />
+          <p>Quis Alikomi</p>
+          <span class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <p class="price">S/5.00</p>
+        </article>
+
+        <article class="article_new_products grid_center mb-3">
+          <img src="./img/product8.png" class="img_new_products" alt="" />
+          <p>Quis Alikomi</p>
+          <span class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <p class="price">S/5.00</p>
+        </article>
+      </div>
+
+      <div
+        class="
+          conte_cards_article
+          w-100
+          mt-5
+          d-flex
+          justify-content-around
+          align-items-center
+          mb-3
+          flex-wrap
+        "
+      >
+        <article
+          class="
+            p-2
+            card_article
+            d-flex
+            justify-content-around
+            align-items-center
+            mb-3
+          "
+        >
+          <div class="w-50">
+            <h3>Daily Fresh</h3>
+            <h4 class="fw-bold">Fresh Fruits</h4>
+            <button class="btn_cards text-white">Shop Now</button>
+          </div>
+          <img class="img_cards" src="img/cat2.png" alt="" />
+        </article>
+
+        <article
+          class="
+            p-2
+            card_article
+            d-flex
+            justify-content-around
+            align-items-center
+            mb-3
+          "
+        >
+          <div class="w-50">
+            <h3>Daily Fresh</h3>
+            <h4 class="fw-bold">Save 50%</h4>
+            <button class="btn_cards text-white">Shop Now</button>
+          </div>
+          <img class="img_cards" src="img/cat1.png" alt="" />
+        </article>
+      </div>
+    </section>
+
+    <!-----------------------todos los products------------------------>
+    <section class="all_products container mb" id="all_products">
+      <h1 class="w-100 text-center mb-5 fs-2">All Products</h1>
+      <div class="conte_grid">
+        <article class="article_new_products grid_center">
+          <img src="./img/product11.png" class="img_new_products" alt="" />
+          <p>Quis Alikomi</p>
+          <span class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <p class="price">S/5.00</p>
+        </article>
+
+        <article class="article_new_products grid_center">
+          <img src="./img/product10.png" class="img_new_products" alt="" />
+          <p>Quis Alikomi</p>
+          <span class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <p class="price">S/5.00</p>
+        </article>
+
+        <article class="article_new_products grid_center">
+          <img src="./img/product11.png" class="img_new_products" alt="" />
+          <p>Quis Alikomi</p>
+          <span class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <p class="price">S/5.00</p>
+        </article>
+
+        <article class="article_new_products grid_center">
+          <img src="./img/product8.png" class="img_new_products" alt="" />
+          <p>Quis Alikomi</p>
+          <span class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <p class="price">S/5.00</p>
+        </article>
+
+        <article class="article_new_products grid_center">
+          <img src="./img/product7.png" class="img_new_products" alt="" />
+          <p>Quis Alikomi</p>
+          <span class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <p class="price">S/5.00</p>
+        </article>
+
+        <article class="article_new_products grid_center">
+          <img src="./img/product6.png" class="img_new_products" alt="" />
+          <p>Quis Alikomi</p>
+          <span class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <p class="price">S/5.00</p>
+        </article>
+
+        <article class="article_new_products grid_center">
+          <img src="./img/product5.png" class="img_new_products" alt="" />
+          <p>Quis Alikomi</p>
+          <span class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <p class="price">S/5.00</p>
+        </article>
+
+        <article class="article_new_products grid_center">
+          <img src="./img/product4.png" class="img_new_products" alt="" />
+          <p>Quis Alikomi</p>
+          <span class="stars"
+            ><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i
+          ></span>
+
+          <p class="price">S/5.00</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section_new_products container mb" id="feature_products">
+      <h2 class="text-center title_new_products fs-2 mb-5">
+        Featrued Products
+      </h2>
+
+      <div class="conte_grid">
+        <article class="article_new_products grid_center mb-3">
+          <img src="./img/product5.png" class="img_new_products" alt="" />
+          <p class="name_product">Quis Alikomi</p>
+          <span class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <p class="price">S/5.00</p>
+        </article>
+
+        <article class="article_new_products grid_center mb-3">
+          <img src="./img/product6.png" class="img_new_products" alt="" />
+          <p class="name_product">Quis Alikomi</p>
+          <span class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <p class="price">S/5.00</p>
+        </article>
+
+        <article class="article_new_products grid_center mb-3">
+          <img src="./img/product7.png" class="img_new_products" alt="" />
+          <p class="name_product">Quis Alikomi</p>
+          <span class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <p class="price">S/5.00</p>
+        </article>
+
+        <article class="article_new_products grid_center mb-3">
+          <img src="./img/product8.png" class="img_new_products" alt="" />
+          <p class="name_product">Quis Alikomi</p>
+          <span class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+          <p class="price">S/5.00</p>
+        </article>
+      </div>
+    </section>
+
+    <!----------------Subscribe:S--------------->
+    <article
+      class="
+        conte_suscribe
+        text-white
+        border
+        d-flex
+        justify-content-between
+        align-items-center
+        p-3
+        flex-wrap
+        p-5
+        mb-5
+      "
+    >
+      <h2 class="w-100 title_subscribe pl-5">Subscribe fo more videos</h2>
+      <p class="descrption_subscribe">
+        if yo this website make sure to leave a like, commet and subscribe
+      </p>
+      <form
+        class="
+          form-control
+          border
+          form-subscribe
+          border-white
+          d-flex
+          justify-content-between
+          p-1
+        "
+      >
+        <input
+          type="text"
+          class="border-white form-control w-50"
+          placeholder="Enter Email Address"
+        />
+        <button class="btn_subscribe text-white">Subscribe</button>
+      </form>
+    </article>
+
+    <span class="arrow"><a href="#" class="fas fa-chevron-up"></a></span>
+
+    <footer class="footer pt-3" id="contact">
+      <div class="container conte_grid">
+        <div class="extras">
+          <h4 class="fs-5">EXTRAS</h4>
+          <ul>
+            <li>Brans</li>
+            <li>Gif Certifcates</li>
+            <li>Afiliate</li>
+            <li>Specials</li>
+            <li>Site Map</li>
+          </ul>
+        </div>
+        <div class="information">
+          <h4 class="fs-5">INFORMATION</h4>
+          <ul>
+            <li>About Us</li>
+            <li>Privacy Policy</li>
+            <li>Teams & Conditions</li>
+            <li>Contact Us</li>
+            <li>Site Map</li>
+          </ul>
+        </div>
+        <div class="account">
+          <h4 class="fs-5">MY ACOUNT</h4>
+          <ul>
+            <li>Brans</li>
+            <li>Gif Certifcates</li>
+            <li>Afiliate</li>
+            <li>Specials</li>
+            <li>Site Map</li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h4 class="fs-5">CONTACT US</h4>
+          <ul>
+            <li>Brans</li>
+            <li>Gif Certifcates</li>
+            <li>Afiliate</li>
+            <li>Specials</li>
+            <li>Site Map</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="Js/index.js"></script>
+  </body>
+</html>
